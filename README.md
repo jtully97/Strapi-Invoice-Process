@@ -53,5 +53,9 @@ Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/
 - [Awesome Strapi](https://github.com/strapi/awesome-strapi) - A curated list of awesome things related to Strapi.
 
 ---
+## Settings
+- settings page is used to enter email connection info for the from address on all invoices going out.
+- clients collection can be used to enter the client info, including the invoice in a WYSIWYG editor.
 
-<sub>🤫 Psst! [Strapi is hiring](https://strapi.io/careers).</sub>
+## Coming soon
+- settings to specify the day the invoice should be sent out. ie: 1st of month at 12am.
