@@ -14,7 +14,7 @@ module.exports = createCoreController("api::client.client", ({ strapi }) => ({
 
       ctx.body = "Invoice Process Complete!";
     } catch (err) {
-      ctx.body = err;
+      (ctx.body = err), "error";
     }
   },
 }));

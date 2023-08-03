@@ -60,9 +60,6 @@ module.exports = createCoreService("api::client.client", ({ strapi }) => ({
           },
         });
 
-        console.log(client.invoice, " invoice");
-        console.log(lineBreakSwap(client.invoice), " invoice swapped");
-
         let message = {
           from: `${settings.emailUser}`,
           to: `${client.recipient}`,

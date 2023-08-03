@@ -37,7 +37,11 @@ function lineBreakSwap(string) {
   return swappedString;
 }
 
+//TODO: take WYSIWYG content and insert date in formats specified ie <
+function dateFormatter(string) {}
+
 module.exports = {
   getDateValues: getDateValues,
   lineBreakSwap: lineBreakSwap,
+  dateFormatter: dateFormatter,
 };
